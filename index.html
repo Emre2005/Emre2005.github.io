@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Min Blog (Prototype)</title>
+    <style>
+      .lightgrayblock {
+        width: 100%;
+        height: 50px;
+        background-color: lightgray;
+        color: blue;
+        font-size: xx-large;
+        font-family: sans-serif;
+        cursor: default;
+      }
+      .darkgreyblock {
+        width: 100%;
+        height: 50px;
+        background-color: grey;
+        text-align: center;
+        font-family: sans-serif;
+        cursor: default;
+      }
+      .blackblock {
+        width: 100%;
+        height: 50px;
+        color: white;
+        background-color: black;
+        text-align: left;
+        font-size: xx-large;
+        font-family: sans-serif;
+        cursor: default;
+      }
+      main {
+        display: flex;
+      }
+      .main-blogposts-container {
+        flex: 4;
+      }
+      .tagbox-container {
+        flex: 1;
+      }
+      .tagbox {
+        background-color: grey;
+        font-family: sans-serif;
+        float: right;
+        width: 300px;
+        height: 350px;
+      }
+      .Dates {
+        color: blue;
+        font-family: sans-serif;
+        cursor: default;
+        margin: 20px;
+      }
+      .Tagstext {
+        font-family: sans-serif;
+        font-size: larger;
+        cursor: default;
+        margin: 10px;
+        width: 20px;
+        height: 10px;
+      }
+      .TagsUnderText {
+        cursor: default;
+      }
+      img {
+        width: 300px;
+        height: 300px;
+        padding: 50px;
+        position: relative;
+
+        float: left;
+      }
+      .SEOFriendlyText {
+        color: black;
+        text-align: left;
+        font-size: large;
+        font-family: sans-serif;
+        cursor: default;
+      }
+      .SEOUnderText {
+        color: black;
+        font-size: small;
+        font-family: sans-serif;
+        cursor: default;
+      }
+      .blogimgText1 {
+        color: black;
+        font-size: medium;
+        font-family: sans-serif;
+        margin: 60px;
+        cursor: default;
+      }
+      .buttonContainer {
+        text-align: center;
+      }
+      .OlderPostButton {
+        width: 100px;
+        height: 40px;
+      }
+      .CustomerLoyaltyText {
+        font-family: sans-serif;
+        font-size: xx-large;
+        width: 200px;
+        height: 140px;
+        cursor: default;
+        padding: 50px;
+      }
+      .CustomerLoyaltyText2 {
+        font-family: sans-serif;
+        font-size: medium;
+        padding: 20px;
+        cursor: default;
+      }
+      .Bottomgreybox {
+        background-color: grey;
+        width: 100%;
+        color: blue;
+        display: flex;
+        justify-content: space-evenly;
+        cursor: default;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <div class="lightgrayblock">
+        <u>COMPANY NAME</u>
+      </div>
+
+      <div class="darkgreyblock">
+        The XYZ Company Technology Blog
+        <br />
+        Tips, trends and announcements from respected industry leaders
+      </div>
+
+      <div class="blackblock">Latest Posts:</div>
+
+      <hr />
+      <main>
+        <div class="main-blogposts-container">
+          <div class="SEOFriendlyText">
+            <h1>SEO-Friendly Blog Post Titel</h1>
+
+            <div class="SEOUnderText"><u>By Company Staff</u></div>
+            <div>
+              <img src="blog.png" alt="blog-img" />
+            </div>
+
+            <br />
+
+            <div class="blogimgText1">
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+
+              <a href="blog-artictle.html"><button>Read More</button></a>
+            </div>
+          </div>
+          <hr />
+
+          <div class="SEOFriendlyText">
+            <h1>SEO-Friendly Blog Post Titel</h1>
+
+            <div class="SEOUnderText"><u>By Company Staff</u></div>
+            <div>
+              <img src="blog.png" alt="blog-img" />
+            </div>
+
+            <br />
+
+            <div class="blogimgText1">
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              <a href="blog-artictle.html"><button>Read More</button></a>
+            </div>
+          </div>
+          <hr />
+
+          <div class="SEOFriendlyText">
+            <h1>SEO-Friendly Blog Post Titel</h1>
+
+            <div class="SEOUnderText"><u>By Company Staff</u></div>
+            <div>
+              <img src="blog.png" alt="blog-img" />
+            </div>
+
+            <br />
+
+            <div class="blogimgText1">
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              Text Text Text Text Text Text <br />
+              <a href="blog-artictle.html"><button>Read More</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="tagbox-conatiner">
+          <div class="tagbox">
+            Post Archives <br />
+            <div class="Dates">
+              December 2012 <br />
+              November 2012 <br />
+              October 2012 <br />
+            </div>
+            <div class="Tagstext">Tags</div>
+            <div class="TagsUnderText">
+              Social Media Googel <br />
+              CEO Mape Local Video <br />
+              Youtube Derectory Inks Leads <br />
+              Website Responsive <br />
+            </div>
+            <form>
+              <input type="search" />
+            </form>
+          </div>
+        </div>
+      </main>
+
+      <hr />
+      <div class="buttonContainer">
+        <button class="OlderPostButton">Older Posts</button>
+      </div>
+      <hr />
+      <div class="CustomerLoyaltyText">Build Customer Loyalty.</div>
+      <div class="CustomerLoyaltyText2">
+        Sign up today for your free trial to XYZ product. No credit card
+        required
+      </div>
+      <div class="Bottomgreybox">
+        <div>
+          <p>About Us</p>
+          <p>Pricing</p>
+          <p>Sign Up</p>
+          <p>Contact Us</p>
+        </div>
+        <div>
+          <p>Your Customized App</p>
+          <p>CMS</p>
+          <p>Video</p>
+          <p>Analytics</p>
+        </div>
+        <div>
+          <p>Support</p>
+          <p>Legal</p>
+          <p>Careers</p>
+        </div>
+        <div>
+          <p>Terms of Service</p>
+          <p>Privacy Policy</p>
+          <p>Sitemap</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
